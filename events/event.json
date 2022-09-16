@@ -1,0 +1,19 @@
+{
+  "consumptions":
+  {
+    "deviceID":"WG_WM_562",
+    "customer":"5",
+    "customerID":"3700",
+    "duration":"3500",
+    "electricConsumption":"850",
+    "waterConsumption":"350",
+    "electricQuota":"804",
+    "waterQuota":"500",
+    "timestamp":"cuma, 5 Ağustos 2022 15:43:52 GMT+03:00",
+    "tableName":"UpdaterTable3",
+    "updateKey":"waterConsumption",
+    "updateValue":"470"
+  },
+  "topic":"Vestel/customerId/+/WM/WG_WM_12345/analytics/consumption"
+
+}

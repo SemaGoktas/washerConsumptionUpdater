@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion : '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  test:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: updateItems/index.handler
+      Timeout: 50
+      Runtime: nodejs16.x
+      Environment: 
+          Variables: 
+            region: us-west-1
+            configResource: dev
+            TableName: UpdaterTable3
+            
+
+

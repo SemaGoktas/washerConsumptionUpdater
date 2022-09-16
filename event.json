@@ -1,0 +1,126 @@
+{
+    "resource": "/portalurl/{deviceID}/{updateKey}",
+    "path": "/portalurl/WG_WM_562/waterConsumption",
+    "httpMethod": "POST",
+    "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, br",
+        "CloudFront-Forwarded-Proto": "https",
+        "CloudFront-Is-Desktop-Viewer": "true",
+        "CloudFront-Is-Mobile-Viewer": "false",
+        "CloudFront-Is-SmartTV-Viewer": "false",
+        "CloudFront-Is-Tablet-Viewer": "false",
+        "CloudFront-Viewer-ASN": "12861",
+        "CloudFront-Viewer-Country": "TR",
+        "Host": "tpbwiepv2k.execute-api.us-west-1.amazonaws.com",
+        "Postman-Token": "27335c18-357a-4af3-9757-7a147d3479ae",
+        "User-Agent": "PostmanRuntime/7.29.2",
+        "Via": "1.1 f813184316cc9264bb50439c82a80f88.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Id": "MjdtfKp-3RZSQKDFbP2hZQ-0Bj5kTps99w0EICSxrQ8IKNUnsXm7SQ==",
+        "X-Amzn-Trace-Id": "Root=1-62f60074-72111f3804a7c51c4535090d",
+        "X-Forwarded-For": "212.29.66.77, 130.176.33.72",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "Accept": [
+            "*/*"
+        ],
+        "Accept-Encoding": [
+            "gzip, deflate, br"
+        ],
+        "CloudFront-Forwarded-Proto": [
+            "https"
+        ],
+        "CloudFront-Is-Desktop-Viewer": [
+            "true"
+        ],
+        "CloudFront-Is-Mobile-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-SmartTV-Viewer": [
+            "false"
+        ],
+        "CloudFront-Is-Tablet-Viewer": [
+            "false"
+        ],
+        "CloudFront-Viewer-ASN": [
+            "12861"
+        ],
+        "CloudFront-Viewer-Country": [
+            "TR"
+        ],
+        "Host": [
+            "tpbwiepv2k.execute-api.us-west-1.amazonaws.com"
+        ],
+        "Postman-Token": [
+            "27335c18-357a-4af3-9757-7a147d3479ae"
+        ],
+        "User-Agent": [
+            "PostmanRuntime/7.29.2"
+        ],
+        "Via": [
+            "1.1 f813184316cc9264bb50439c82a80f88.cloudfront.net (CloudFront)"
+        ],
+        "X-Amz-Cf-Id": [
+            "MjdtfKp-3RZSQKDFbP2hZQ-0Bj5kTps99w0EICSxrQ8IKNUnsXm7SQ=="
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-62f60074-72111f3804a7c51c4535090d"
+        ],
+        "X-Forwarded-For": [
+            "212.29.66.77, 130.176.33.72"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": {
+        "consumption": "120"
+    },
+    "multiValueQueryStringParameters": {
+        "consumption": [
+            "120"
+        ]
+    },
+    "pathParameters": {
+        "deviceID": "WG_WM_562",
+        "updateKey": "waterConsumption"
+    },
+    "stageVariables": null,
+    "requestContext": {
+        "resourceId": "i762to",
+        "resourcePath": "/portalurl/{deviceID}/{updateKey}",
+        "httpMethod": "POST",
+        "extendedRequestId": "WvUCLESnyK4Fmog=",
+        "requestTime": "12/Aug/2022:07:25:40 +0000",
+        "path": "/prod/portalurl/WG_WM_562/waterConsumption",
+        "accountId": "950887228188",
+        "protocol": "HTTP/1.1",
+        "stage": "prod",
+        "domainPrefix": "tpbwiepv2k",
+        "requestTimeEpoch": 1660289140174,
+        "requestId": "7cc75c0c-ec14-4bb9-b03d-662821dcabb6",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "212.29.66.77",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "PostmanRuntime/7.29.2",
+            "user": null
+        },
+        "domainName": "tpbwiepv2k.execute-api.us-west-1.amazonaws.com",
+        "apiId": "tpbwiepv2k"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}
