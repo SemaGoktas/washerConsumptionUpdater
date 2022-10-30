@@ -10,9 +10,9 @@ const table = process.env.TableName
 //require('dotenv').config();
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '5542449728:AAGum7P-ocuxXz3pYHDUkNUFczWLjKJzQVs';
+const token = '0000';
 const bot = new TelegramBot(token, {polling: true});
-const chatId = 5549900077;
+const chatId = 777;
 
 
 
